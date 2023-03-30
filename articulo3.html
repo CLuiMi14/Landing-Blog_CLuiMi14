@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./img/estilosArticulo2.css">
+    <title>Copa del mundo</title>
+</head>
+<body>
+    <div class="logo-izquierdo">
+        <a href="index.html">
+            <img src="./img/BalondeFutbol.png" alt="">
+        </a>
+    </div>
+    <div class="fotoInicial">
+        <img src="./img/ChileEnELMundialPrincipal.jpg" alt="">
+    </div>
+    
+    <div class="titulo">
+        <h1>
+            Chile en los Mundiales
+        </h1>
+    </div>
+</body>
+<main>
+    <div class="contenido-articulo">
+        <h2>Participaciones</h2>
+        <p>
+            Nueve aventuras, nueve participaciones, nueves momentos donde todos soñamos como país ser campeones del mundo; Uruguay 1930, Brasil 1950, Chile 1962, Inglaterra 1966, Alemania 1974, España 1982, Francia 1998, Sudáfrica 2010 y Brasil 2014. Si bien nunca lo hemos logrado, la historia de Chile en los mundiales de futbol tiene anécdotas para todos los gustos, y en la Biblioteca Nacional los invitamos a repasarlas con nosotros
+        
+            <div class="primeraFoto">
+            <img src="./img/ChileEnELMundial1.jpg" alt="">
+            </div> 
+            <p>
+                En su historia la selección ha jugado en 9 de las 21 ediciones de la Copa del Mundo, Uruguay 1930, Brasil 1950, Chile 1962, Inglaterra 1966, Alemania 1974, España 1982, Francia 1998, Sudáfrica 2010 y Brasil 2014.        
+            </p>
+        </p>
+        <h2>Estadísticas</h2>
+        <div class="ultimaFoto">
+        <img src="./img/EstadisticaChile.png" alt="">
+        </div>
+    </div>
+    <br>
+    <div class="referencia">
+        <button onclick="funciones()">Siquieres saber más, haz click aquí</button>
+
+        <script>
+        function funciones(){
+            let text="Seguro desea salir de la página?"
+            if(confirm(text)==true) {
+                window.open("https://www.bibliotecanacional.gob.cl/noticias/la-seleccion-chilena-en-los-mundiales#:~:text=En%20su%20historia%20la%20selecci%C3%B3n,Sud%C3%A1frica%202010%20y%20Brasil%202014.");
+            }
+        }
+        </script>   
+    </div>
+    <div class="referencia">
+        <button onclick="funciones2()">Siquieres saber más, haz click aquí</button>
+
+        <script>
+        function funciones2(){
+            let text="Seguro desea salir de la página?"
+            if(confirm(text)==true) {
+                window.open("https://es.wikipedia.org/wiki/Chile_en_la_Copa_Mundial_de_F%C3%BAtbol");
+            }
+        }
+        </script>   
+    </div>
+</main>
+</html>
